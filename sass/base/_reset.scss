@@ -1,0 +1,16 @@
+@use '../abstracts/variables' as var;
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: var.$bg-color;
+  overflow-x: hidden;
+  font-size: 18px;
+  color: var.$color-white;
+}

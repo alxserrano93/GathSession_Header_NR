@@ -1,0 +1,18 @@
+@use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mix;
+
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 616px;
+    margin-top: 62px;
+    gap: 22px;
+
+    article img{
+        border-radius: 40%;
+        background-color: #464751;
+        padding: 12px 12px;
+    }
+}
